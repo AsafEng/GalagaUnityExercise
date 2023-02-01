@@ -10,9 +10,8 @@ It is an efficient design pattern that makes projects less tightly-coupled and h
 I decided to not use Zenject in this project, because MVC and Observer patterns are helpul with solving dependencies.
 I would definitely use Zenject in the future, as it is a great way of solving these issues.
 
-# Scenes 
-(if you play from the unity editor)  
-The game starts from the "BootScene" scene.
+# Scenes Note
+If you play from the unity editor, make sure to enter the "BootScene" scene. 
 
 # How to play
 Use the AWSD keys to move, and Space to shoot.
