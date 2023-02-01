@@ -31,7 +31,12 @@ public class InputController : Controller
 
         if (_joystick.Horizontal != 0 || _joystick.Vertical != 0)
         {
+            #if UNITY_ANDROID
             _input = new Vector2(_joystick.Horizontal, _joystick.Vertical) * 5f;
+             #endif
+             #if !UNITY_ANDROID
+            _input = new Vector2(_joystick.Horizontal, _joystick.Vertical);
+            #endif
         }
 
         //Trigger the event
