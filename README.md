@@ -4,7 +4,7 @@ A retro spaceship game.
 
 # MVC Paradigm
 This project architecture is designed with the MVC paradigm.
-It is a great design pattern that makes projects less tightly-coupled and less dependencies.
+It is an efficient design pattern that makes projects less tightly-coupled and have less dependencies.
 
 # Dependencies Note
 I decided to not use Zenject in this project, because MVC and Observer patterns are helpul with solving dependencies.
