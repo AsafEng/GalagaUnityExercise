@@ -1,0 +1,15 @@
+{
+    "name": "UIViewAssembly",
+    "references": [
+        "GUID:da4184343d2ac9947bcd7d342350c92f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
